@@ -1,0 +1,30 @@
+#three {
+    overflow: auto;
+    margin-bottom: 30px;
+}
+
+#three>div {
+    width: calc((100% - 20px) / 3);
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+}
+
+#three>div:last-of-type {
+    margin-right: 0px;
+}
+
+#three>div img {
+    max-width: 100%;
+}
+
+@media all and (max-width: 480px) {
+    #three>div {
+        width: 100%;
+        float: none;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+}
+
+

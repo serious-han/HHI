@@ -1,0 +1,32 @@
+#twoone {
+    overflow: auto;
+}
+
+#twoone h4 {
+    color: #0C4DA2;
+    margin-top: 1.5em;
+    font-size: 1.4em;
+}
+
+.to1 {
+    float: left;
+    width: calc(100% - 259px);
+}
+
+.to2 {
+    float: left;
+    width: 259px;
+    padding-top: 40px;
+}
+
+
+@media all and (max-width: 800px) {
+    .to1 {
+        width: 100%;
+        float: none;
+    }
+    
+    .to2 {
+        display: none;
+    }
+}
